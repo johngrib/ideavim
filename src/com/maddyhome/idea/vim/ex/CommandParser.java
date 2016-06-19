@@ -125,6 +125,7 @@ public class CommandParser {
     new YankLinesHandler();
 
     new ShellHandler();
+    new LastHandler();
 
     registered = true;
     //logger.debug("root=" + root);
