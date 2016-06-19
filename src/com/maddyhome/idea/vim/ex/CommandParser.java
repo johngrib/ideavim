@@ -126,6 +126,7 @@ public class CommandParser {
 
     new ShellHandler();
     new LastHandler();
+    new OldFilesHandler();
 
     registered = true;
     //logger.debug("root=" + root);
