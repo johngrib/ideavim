@@ -128,6 +128,7 @@ public class CommandParser {
     new LastHandler();
     new OldFilesHandler();
     new OpenDirectoryHandler();
+    new OpenVimHandler();
 
     registered = true;
     //logger.debug("root=" + root);
